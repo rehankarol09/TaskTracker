@@ -1,18 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 Project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to the Vue 3 project! This project is built using Vue 3, a modern JavaScript framework for building user interfaces.
 
-## Recommended IDE Setup
+## Getting Started
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To get started with the project, follow these steps:
 
-## Type Support For `.vue` Imports in TS
+### Prerequisites
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Make sure you have the following installed on your machine:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- [Node.js](https://nodejs.org/) (version 12.x or higher)
+- npm (comes with Node.js)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Installation
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    https://github.com/rehankarol09/TaskTracker.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd TaskTracker
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the App
+
+Once the installation is complete, you can run the Vue 3 app with the following command:
+
+```bash
+npm run dev
+
